@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  width: 360px;
+  height: 420px;
+  border: 10px solid black;
+  border-radius: 20px;
+  margin: 50px auto;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #b7d4a8;
+}
+
+.stage {
+  position: relative;
+  width: 304px;
+  height: 304px;
+  border: 2px solid black;
+}
+
+/* .snack {
+} */
+
+.snack div {
+  width: 10px;
+  height: 10px;
+  border: 1px solid #b7d4a8;
+  background-color: black;
+  position: absolute;
+
+}
+
+.food {
+  display: flex;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  background-color: rgb(240, 9, 9);
+  top: 50px;
+  left: 90px;
+}
+
+.food div {
+  width: 4px;
+  height: 4px;
+  background-color: #fff;
+}
+
+.score-level {
+  display: flex;
+  width: 304px;
+  font-family: "Courier";
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: space-between;
+}
