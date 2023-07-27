@@ -40,10 +40,10 @@ class Snack {
     this.snackEle.insertAdjacentHTML("beforeend", "<div></div>");
   }
   changeBody() {
-    console.log(this.x, this.y);
-    if (this.allSnack.length > 1) {
-      console.log((this.allSnack[1] as HTMLElement).offsetLeft, (this.allSnack[1] as HTMLElement).offsetTop);
-    }
+    // console.log(this.x, this.y);
+    // if (this.allSnack.length > 1) {
+    //   console.log((this.allSnack[1] as HTMLElement).offsetLeft, (this.allSnack[1] as HTMLElement).offsetTop);
+    // }
 
     for (let i = this.allSnack.length - 1; i >= 1; i--) {
       (this.allSnack[i] as HTMLElement).style.left = (this.allSnack[i - 1] as HTMLElement).offsetLeft + 'px';
